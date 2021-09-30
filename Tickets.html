@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Heilung Tickets</title>
+</head>
+<body>
+	<!-- This is the navigation bar used on both pages-->
+	<div id="top" >
+		 
+		 
+		<a href="index.html">Home</a>
+		<a href="Tickets.html">Get A Ticket</a>
+		 
+		 
+	</div>
+	<br>
+	<br>
+	<!-- This section contains information about attendance policies for Covid with a link to the CDC website for full information-->
+	<div id="CovidPolicy" class="alsoFont">
+		<h2>
+		IMPORTANT: To familiarize yourself with the attendance policies, please follow <a href="https://www.cdc.gov/coronavirus/2019-ncov/your-health/gatherings.html" target="_blank" class="covidLink">this</a> link.
+		</h2>
+		<h3>Here are some major bullet points for attendance:</h3>
+		<ul>
+			<li>If you are not fully vaccinated and aged 2 or older, you should wear a mask in indoor public places.</li>
+			<li>In general, you do not need to wear a mask in outdoor settings.</li>
+				<ul>
+					<li>In areas with high numbers of COVID-19 cases, consider wearing a mask in crowded outdoor settings and for activities with close contact with others who are not fully vaccinated.</li>
+				</ul>
+			<li>People who have a condition or are taking medications that weaken their immune system may not be fully protected even if they are fully vaccinated. They should continue to take all precautions recommended for unvaccinated people, including wearing a well-fitted mask, until advised otherwise by their healthcare provider.</li>
+			<li>If you are fully vaccinated, to maximize protection from the Delta variant and prevent possibly spreading it to others, wear a mask indoors in public if you are in an area of substantial or high transmission.</li>
+			<li>If you are fully vaccinated, see When You’ve Been Fully Vaccinated.</li>
+		</ul>
+	</div>
+
+<!-- This section contains information about 3 most impending concerts with the forms for inserting the number of tickets to buy and the submit button-->
+
+	<h1 class="whereToFont">
+		Upcoming Concerts
+	</h1>
+	<div id="Concerts" class="alsoFont">
+		<div class="Venue">October 5th, 2021	Red Rocks Amphitheater	Denver, CO	United States
+			<br>
+			<form >
+				Place an order for <input type="text" name="ticketNumber" value="0" class = "orders">ticket/s.
+				<br>
+				<input type="submit" name="Submit" class="orderSubmit" >
+			</form>
+		</div>
+		<div>November 4th, 2021	Annexet	Stockholm	Sweden
+			<form >
+				Place an order for <input type="text" name="ticketNumber" value="0" class = "orders">ticket/s.
+				<br>
+				<input type="submit" name="Submit" class="orderSubmit" >
+			</form>
+		</div>
+		<div>November 7th, 2021	Kulttuuritalo	Helsinki	Finland
+		<br>
+			<form >
+				Place an order for <input type="text" name="ticketNumber" value="0" class = "orders">ticket/s.
+				<br>
+				<input type="submit" name="Submit" class="orderSubmit" >
+			</form>
+		</div>
+	</div>
+
+	<!-- This section asks the user to type the email address for the ticket order-->
+
+	<div id="emailSend">
+		<h1 class="whereToFont">
+			Please, enter your email to order your tickets that will be sent to your provided email:
+		</h1>
+		<form class="email">
+			<input type="text" name="providedEmail" value="Your Email" class="submitEmail">
+			<input type="submit" name="Submit" class="submitEmail">
+		</form>
+	</div>
+</body>
+</html>
+
+<!-- Vlad Tsimoshchanka - NCFCourseProject-->
