@@ -1,0 +1,103 @@
+@font-face { font-family: font; src: url("fonts/MedievalSharp-Regular.ttf"); }
+@font-face { font-family: fontik; src: url("fonts/static/MerriweatherSans-Light.ttf"); }
+#top {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+    background: #11364E;
+    height: 30px;
+    padding: 10px;
+    
+    text-align: center;
+    vertical-align: middle;
+    font-family: font;
+	font-weight: bold;
+	font-size: 28px;
+}
+#top > a{
+	text-decoration: none;
+	color: #DBEDF9;
+}
+html{
+	background-color: #23292C;
+}
+h1{
+	color: #DBEDF9;
+}
+h3{
+	color: #DBEDF9;
+}
+h2{
+	color: #DBEDF9;
+}
+#About{
+	margin-top: 4%;
+}
+
+.covidLink{
+	color: red;
+}
+
+img.HeilungImage{
+	width: 70%;
+	height: 400px;
+	display: block;
+	margin: 0px auto;
+}
+
+#Concerts{
+	display: flex;
+	background: #11364E;
+
+}
+
+#CovidPolicy{
+	color: #DBEDF9;
+}
+
+#Concerts > div{
+	width: 33%;
+	font-size: 40px;
+	font-family: font;
+	border-style: solid;
+	margin-right: 5px;
+	padding: 5px;
+	border-color: #DBEDF9;
+	color: #DBEDF9;
+}
+
+.TicketButton{
+	border-style: ridge;
+	text-decoration: none;
+	color: #DBEDF9;
+}
+
+.orders{
+	font-size: 30px;
+	width: 7%;
+}
+.orderSubmit{
+	font-size: 35px;
+	font-family: font;
+
+
+}
+.whereToFont{
+	font-family: font;
+	text-align: center;
+}
+
+.email{
+	text-align: center;
+}
+
+.submitEmail{
+	font-size: 30px;
+}
+
+.alsoFont{
+	font-family: fontik;
+}
